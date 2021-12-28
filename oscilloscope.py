@@ -27,6 +27,7 @@ class Oscilloscope(QMainWindow):
 
     def initUI(self):
         self.setGeometry(30, 40, 946, 620)
+        self.setMaximumSize(QtCore.QRect(946, 620))
         self.setObjectName('Oscilloscope')
         self.setWindowTitle('Oscilloscope')
         
